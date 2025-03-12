@@ -8,7 +8,7 @@ download:
 	-mkdir tmp
 	wget --continue --progress=dot:mega --waitretry=60 ${SOURCE_URL} \
 		--header='accept: application/geo+json' \
-		--header='User-Agent: (nytimes.com, john.keefe@nytimes.com)' \
+		--header='User-Agent: (stlpr.org, kgrumke@stlpr.org)' \
 		-O tmp/download.json
 
 warnings:
