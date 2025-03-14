@@ -4,7 +4,7 @@
 # COUNTIES := MOC189 MOC183 MOC161 ILC163 ILC119 ILC001
 # SOURCE_URL_BASE := "https://api.weather.gov/alerts/active?status=actual&zone="
 
-SOURCE_URL:="https://api.weather.gov/alerts/active?status=actual&zone=MOC189,MOC183,MOC161,ILC163,ILC119,ILC001"
+SOURCE_URL:="https://api.weather.gov/alerts/active?status=actual&zone=MOC510,MOC189,MOC183,MOC161,ILC163,ILC119,ILC001"
 
 all: clean download slack
 
