@@ -9,7 +9,7 @@ SOURCE_URL:="https://api.weather.gov/alerts/active?status=actual&zone=MOC189"
 all: clean download slack
 
 download:
- 	-mkdir tmp
+	-mkdir tmp
  	wget --continue --progress=dot:mega --waitretry=60 ${SOURCE_URL} \
 		--header='accept: application/geo+json' \
 		--header='User-Agent: (stlpr.org, kgrumke@stlpr.org)' \
